@@ -1,5 +1,5 @@
-# Mental-Health-Insights
+# Health Equity
 
 ⚠️ Currently working on this project ⚠️
 
-We all know someone who struggles with mental health, and I want to better understand the issues around mental health
+"Health equity is the state in which everyone has a fair and just opportunity to attain their highest level of health" - Centers for Disease Control and Prevention
