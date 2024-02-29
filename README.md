@@ -13,7 +13,7 @@ All data contributing to this project is the intellectual property of the Lown I
 https://lownhospitalsindex.org/rankings/
 
 # Questions for this project
-preface: These questions are found on lownhospitalindex.org and are used as a great starting point:
+Preface: These questions are found on lownhospitalindex.org and are used as a great starting point:
 1. Which hospitals are the most inclusive in America?
 2. What ultimately sets these hospitals apart?
 3. Which hospitals excel in minimizing unnecessary and potentially harmful treatments while achieving optimal outcomes at an affordable cost?
