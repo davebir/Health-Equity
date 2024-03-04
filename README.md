@@ -1,5 +1,7 @@
 # Health Equity
 
+👆🏽 Find queries just above 👆🏽
+
 ⚠️ Currently working on this project ⚠️
 
 "Health equity is the state in which everyone has a fair and just opportunity to attain their highest level of health"
