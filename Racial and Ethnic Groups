@@ -1,0 +1,13 @@
+# How many patients in the dataset belong to each racial or ethnic group?
+
+SELECT
+	race,
+	ethnicity,
+	COUNT(*) AS patient_count
+FROM patients
+GROUP BY
+	race,
+	ethnicity
+ORDER BY patient_count DESC;
+
+Commentary: Since race and ethnicity are in separate columns, I selected both and the count function and gave it the alias "patient_coount". This is in the "patients" table and grouped race and ethnicity. I then ordered the "patient_count" in descending order.
