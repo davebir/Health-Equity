@@ -9,13 +9,13 @@ Everyone deserves a fair and just opportunity in their health journey.
 
 This project aims to uncover ways hospitals are exceeding in their health equity and ways they can become better.
 
-All data contributing to this project is the intellectual property of the Lown Institute:
-https://lownhospitalsindex.org/rankings/
+All data contributing to this project is the intellectual property of Synthea:
+https://synthetichealth.github.io/synthea/
 
 # Questions for this project
-Preface: These questions are found on lownhospitalindex.org and are used as a starting point:
-1. Which hospitals are the most inclusive in America?
-2. What ultimately sets these hospitals apart?
-3. Which hospitals excel in minimizing unnecessary and potentially harmful treatments while achieving optimal outcomes at an affordable cost?
-4. Which hospitals have the highest number of patient return trips to said hospital?
-5. Which hospitals have the highest patient satisfaction? Lowest patient satisfaction?
+
+1. How many patients in the dataset belong to each racial or ethnic group?
+2. What are the most common conditions for patients in specific age groups?
+3. What percentage of patients have health insurance? How does it vary by demographics?
+4. What are the differences in healthcare between urban and rural areas?
+5. Which conditions are most prevalent among patients from different racial or ethnic groups?
