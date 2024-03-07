@@ -18,6 +18,9 @@ FROM (
 GROUP BY Age_Catagory, Conditions
 ORDER BY Age_Catagory, Condition_Count DESC;
 
+How I did this: I first needed to create a query that would help me solve each patient's age based on their date of birth since their age was not given. In my case statement, I used
+the DATE_PART function to extract the year from the nested function AGE which found the difference between today's current date and their birthdate. 
+
 Description:
 This was a question that I wanted to answer for two reasons:
 1. Preventative Healthcare: With this data, we can see which conditions are occurring the most frequently at specific ages and incorporate more screening, medications, vaccines, lifestyle changes, etc. 
