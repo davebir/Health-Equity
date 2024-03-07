@@ -14,12 +14,18 @@ FROM (
     conditions.description
   FROM patients
   LEFT JOIN conditions ON patients.id = conditions.patient
-) AS AgeConditions
+)
 GROUP BY Age_Catagory, Conditions
 ORDER BY Age_Catagory, Condition_Count DESC;
 
-How I did this: I first needed to create a query that would help me solve each patient's age based on their date of birth since their age was not given. In my case statement, I used
-the DATE_PART function to extract the year from the nested function AGE which found the difference between today's current date and their birthdate. 
+How I did this:
+I first needed to create a query that would help me solve each patient's age based on their date of birth since their age was not given. In my case statement, I used
+the DATE_PART function to extract the year from the nested function AGE, which found the difference between today's current date and their birthdate. With each patient's age, I put
+them into three categories: Child, Adult, and Elderly. I gave this case statement the alias "Age_Catagory".
+
+The "description" column is from the Conditions table, which needs a left join.
+
+I then grouped by Age_Catagory and Conditions and ordered by Age_Catagory and Condition_Count in descending order. 
 
 Description:
 This was a question that I wanted to answer for two reasons:
