@@ -1,1 +1,17 @@
+Question: What percentage of patients have health insurance? How does it vary by demographics?
 
+SELECT
+  ROUND(
+	  COUNT(
+	  	CASE
+		  	WHEN 
+			  	healthcare_coverage > 0 THEN 1 END) * 100.0 / COUNT(*), 2) AS perentage_of_patients_with_coverage
+FROM
+	patients;
+
+What I did: I first created a case statement that would help me count all patients with health insurance. In the table "patients", there are two columns: "healthcare_expenses" and
+"healthcare_coverage". In the "healthcare_coverage" column, those with no coverage had a 0 in their row. So, I had SQL give a 1 if "healthcare_coverage" was greater than 0 and then used
+the COUNT function to count all of the 1's.
+
+Commentary: I wanted to find out if all of our patients had some health coverage (insurance). This is beneficial for a few reasons:
+1. 
