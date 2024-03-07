@@ -30,8 +30,7 @@ ROUND(
 	COUNT(
 		CASE
 			WHEN 
-				healthcare_coverage > 0 THEN 1 END) * 100.0 / COUNT(*), 2)
-																		AS perentage_of_patients_with_coverage
+				healthcare_coverage > 0 THEN 1 END) * 100.0 / COUNT(*), 2) AS perentage_of_patients_with_coverage
 FROM
 	patients
 GROUP BY race
@@ -40,4 +39,9 @@ ORDER BY perentage_of_patients_with_coverage DESC;
 
 
 Commentary:
-I wanted to know if all our patients had health coverage (insurance). This is beneficial for a few reasons:
+I wanted to know if all our patients had health coverage (insurance). This is beneficial for a least two reasons:
+1. Patients with health insurance are more likely to seek preventative care and follow-up visits than those who do not have insurance. This leads to better health overall and less
+   expenses for hospitals when a condition becomes bad enough for an emergency surgery.
+2. When a hospital performs surgery for an uninsured patient, there is no guarantee the hospital will receive payment for their services. This adds financial burdens on the hospital
+   to make sure it makes its payroll, utilities, lease payments, etc.
+
