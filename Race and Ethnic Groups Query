@@ -10,5 +10,6 @@ GROUP BY
 	ethnicity
 ORDER BY patient_count DESC;
 
-Commentary: Since race and ethnicity are in separate columns, I selected both and the count function and gave it the alias "patient_coount". 
-This is in the "patients" table and grouped race and ethnicity. I then ordered the "patient_count" in descending order.
+What I did:
+Since race and ethnicity are in separate columns, I selected race and ethnicity and the count function. I then gave it the alias "patient_count". 
+This is in the "patients" table, which is grouped by race and ethnicity. I then ordered the "patient_count" in descending order.
